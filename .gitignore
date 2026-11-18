@@ -1,0 +1,79 @@
+# =============================
+# OS / editor
+# =============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =============================
+# Environment and secrets
+# =============================
+.env
+.env.*
+!.env.example
+*.local
+application-local.yml
+application-local.yaml
+application-local.properties
+backend/src/main/resources/application.yml
+
+# =============================
+# Frontend: Node / Vite / Vue
+# =============================
+**/node_modules/
+**/dist/
+**/.vite/
+**/.cache/
+**/coverage/
+**/*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =============================
+# Backend: Maven / Java / Spring Boot
+# =============================
+**/target/
+**/out/
+**/bin/
+*.class
+*.jar
+*.war
+*.nar
+*.log
+hs_err_pid*
+replay_pid*
+
+# =============================
+# Local build output and generated deliverables
+# =============================
+outputs/
+**/outputs/
+.work/
+.workbuddy/
+
+# =============================
+# Local database exports and backups
+# These files may contain real customer data or credentials.
+# =============================
+backend/db-archive/
+*.sql.gz
+*.dump
+*.bak
+
+# =============================
+# Temporary files
+# =============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

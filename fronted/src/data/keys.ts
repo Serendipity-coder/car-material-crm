@@ -1,0 +1,8 @@
+export const MOCK_DATA_KEY = 'crm_mock_records_v1'
+export const MOCK_SEED_VERSION_KEY = 'crm_mock_seed_version'
+export const AUTH_TOKEN_KEY = 'crm_access_token'
+export const USER_KEY = 'crm_current_user'
+export const PERMISSION_KEY = 'crm_permission_codes'
+export const RECENT_TABS_KEY = 'crm_recent_tabs'
+export const MOCK_REGISTERED_USERS_KEY = 'crm_mock_registered_users_v1'
+export const MOCK_PASSWORDS_KEY = 'crm_mock_passwords_v1'

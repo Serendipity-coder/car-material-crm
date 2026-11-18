@@ -1,0 +1,33 @@
+{
+  "routes": [
+    { "path": "/login", "title": "登录" },
+    { "path": "/register", "title": "注册" },
+    { "path": "/", "title": "经营概览" },
+    { "path": "/todos", "title": "我的待办" },
+    { "path": "/leads", "title": "销售线索" },
+    { "path": "/pool", "title": "客户公海" },
+    { "path": "/customers", "title": "客户档案" },
+    { "path": "/contacts", "title": "联系人" },
+    { "path": "/followups", "title": "跟进记录" },
+    { "path": "/product-categories", "title": "产品分类" },
+    { "path": "/products", "title": "产品档案" },
+    { "path": "/customer-prices", "title": "客户价格" },
+    { "path": "/opportunities", "title": "销售商机" },
+    { "path": "/quotes", "title": "报价单" },
+    { "path": "/orders", "title": "销售订单" },
+    { "path": "/returns", "title": "退换货单" },
+    { "path": "/shipments", "title": "发货记录" },
+    { "path": "/payments", "title": "收款记录" },
+    { "path": "/receivables", "title": "应收账款" },
+    { "path": "/service-tickets", "title": "售后工单" },
+    { "path": "/visits", "title": "客户回访" },
+    { "path": "/reports/sales", "title": "销售统计" },
+    { "path": "/reports/customer-purchase", "title": "客户采购分析" },
+    { "path": "/reports/product-sales", "title": "产品销售分析" },
+    { "path": "/employees", "title": "员工管理" },
+    { "path": "/departments", "title": "部门管理" },
+    { "path": "/roles", "title": "角色管理" },
+    { "path": "/profile", "title": "个人资料" },
+    { "path": "/403", "title": "无权访问" }
+  ]
+}

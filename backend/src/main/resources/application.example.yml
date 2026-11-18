@@ -1,0 +1,38 @@
+# 使用说明：
+# 1. 复制为 application.yml
+# 2. 填写本地数据库、Redis 和短信配置
+# 3. application.yml 已被根目录 .gitignore 忽略，不会提交到 Git
+spring:
+  application:
+    name: car-material-crm
+  datasource:
+    url: jdbc:mysql://localhost:3306/car?useUnicode=true&characterEncoding=UTF-8&connectionCollation=utf8mb4_unicode_ci&serverTimezone=Asia/Shanghai
+    username: root
+    password: CHANGE_ME
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: localhost
+      port: 16379
+      timeout: 1500ms
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+app:
+  jwt-secret: CHANGE_ME_TO_A_LONG_RANDOM_SECRET
+  jwt-expire-seconds: 86400
+  dev-mode: true
+cloopen:
+  sms:
+    server-ip: app.cloopen.com
+    server-port: "8883"
+    account-sid: CHANGE_ME
+    account-token: CHANGE_ME
+    app-id: CHANGE_ME
+    template-id: "1"
+    expire-minutes: "2"
+    default-phone: CHANGE_ME
